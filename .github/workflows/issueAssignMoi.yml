@@ -1,6 +1,6 @@
 #  from https://www.youtube.com/watch?v=R8_veQiYBjI&ab_channel=TechWorldwithNana
 
-name: testMoi
+name: issue assigner
 on:
   issues:
     types: [opened]
