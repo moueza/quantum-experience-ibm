@@ -1,0 +1,17 @@
+#  from https://www.youtube.com/watch?v=R8_veQiYBjI&ab_channel=TechWorldwithNana
+
+name: testMoi
+on:
+  issues:
+    types: [opened]
+ 
+jobs:
+  my-job:
+    name: assigns the issue to Moueza
+    runs-on: ubuntu-latest
+
+    steps:
+   
+    - name:  echo a string
+      run: |
+        echo "issue detected by Action"
